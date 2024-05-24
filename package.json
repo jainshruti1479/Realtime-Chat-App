@@ -1,0 +1,27 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "Chat App with rooms for different stack techs",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainshruti1479/Realtime-Chat-App.git"
+  },
+  "author": "Shruti Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jainshruti1479/Realtime-Chat-App/issues"
+  },
+  "homepage": "https://github.com/jainshruti1479/Realtime-Chat-App#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
